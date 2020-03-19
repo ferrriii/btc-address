@@ -1,0 +1,22 @@
+{
+  "name": "btcaddress",
+  "version": "1.0.0",
+  "description": "a simple js library for generating Bitcoin paper wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "keywords": [
+    "bitcoin",
+    "btc",
+    "wallet",
+	"generate",
+	"address"
+  ],
+  "author": "Farshad",
+  "license": "ISC",
+  "dependencies": {
+    "ripemd160": "^2.0.2",
+    "secp256k1": "^4.0.0"
+  }
+}
