@@ -28,8 +28,8 @@ verify('Private hex key generated correct for smallest possible key= 00000000000
 verify('Error returned for invalid private key= FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141', BTCAddress.generate({ privateKeyHex: 'FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141' }).public == undefined)
 verify('Error returned for invalid prefix abc', BTCAddress.generate({ prefix: 'abc' }).error)
 verify('Public key generated correct with prefix 11', BTCAddress.generate({ prefix: '11' }).public.startsWith('11'))
-verify('Public key generated correct with case-insensitive prefix 1aB', BTCAddress.generate({ prefix: '1omg' }).public.toLowerCase().startsWith('1omg'))
-verify('Public key generated correct with case-sensitive prefix 1aB', BTCAddress.generate({ prefix: '1oMG', prefixCaseSensitive: true }).public.startsWith('1oMG'))
+verify('Public key generated correct with case-insensitive prefix 1a', BTCAddress.generate({ prefix: '1a' }).public.toLowerCase().startsWith('1a'))
+verify('Public key generated correct with case-sensitive prefix 1A', BTCAddress.generate({ prefix: '1A', prefixCaseSensitive: true }).public.startsWith('1A'))
 
 function verify(test, expression) {
 	if (expression) {
