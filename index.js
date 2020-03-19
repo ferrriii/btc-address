@@ -1,8 +1,6 @@
-const secp256k1 = require('secp256k1')
+const secp256k1 = require('secp256k1/elliptic') // or require('secp256k1')
 const RIPEMD160 = require('ripemd160')
 const crypto = require('crypto');
-// or require('secp256k1/elliptic')
-// if you want to use pure js implementation in node
 
 function generate(options = {}) {
 	if (options.prefix && options.prefix[0] !== '1') return { error: 'Prefix must start with 1' }

@@ -1,10 +1,14 @@
 {
-  "name": "btcaddress",
-  "version": "1.0.0",
+  "name": "btcaddressgen",
+  "version": "1.0.1",
   "description": "a simple js library for generating Bitcoin paper wallet",
   "main": "index.js",
   "scripts": {
     "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferrriii/btc-address.git"
   },
   "keywords": [
     "bitcoin",
@@ -18,5 +22,9 @@
   "dependencies": {
     "ripemd160": "^2.0.2",
     "secp256k1": "^4.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ferrriii/btc-address/issues"
+  },
+  "homepage": "https://github.com/ferrriii/btc-address#readme"
 }
