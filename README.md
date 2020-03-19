@@ -1,4 +1,4 @@
-# text-copy
+# Bitcoin Address Generator
 a simple js library for generating Bitcoin paper wallet
 
 ## Features
