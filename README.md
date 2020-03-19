@@ -20,7 +20,7 @@ let address = BTCAddress.generate()
 console.log(address)
 ```
 Output:
-```
+```JavaScript
 {
   // private key in WIF format
   private: '5Hy5wbRdtv57RMZxhh518tV5CT8sXy8RyMH1XaiN5pDN88gC4GG',
