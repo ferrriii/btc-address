@@ -1,4 +1,6 @@
 # Bitcoin Address Generator
+<img alt="preview badge" src="https://img.shields.io/npm/dw/btc-address?style=flat-square"> <img alt="preview badge" src="https://img.shields.io/npm/v/btc-address?style=flat-square"> <img alt="preview badge" src="https://img.shields.io/github/issues/ferrriii/btc-address?style=flat-square"> <img alt="preview badge" src="https://img.shields.io/bundlephobia/minzip/btc-address?style=flat-square"> <img alt="preview badge" src="https://img.shields.io/github/forks/ferrriii/btc-address?style=flat-square"> <img alt="preview badge" src="https://img.shields.io/github/stars/ferrriii/btc-address?style=flat-square"> <img alt="preview badge" src="https://img.shields.io/github/license/ferrriii/btc-address?style=flat-square"> <img alt="preview badge" src="https://img.shields.io/github/languages/top/ferrriii/btc-address?style=flat-square"> <img alt="test status" src="https://img.shields.io/github/workflow/status/ferrriii/btc-address/test?label=test">
+
 a simple js library for generating Bitcoin paper wallet
 
 ## Features
