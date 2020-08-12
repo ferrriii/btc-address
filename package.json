@@ -14,14 +14,14 @@
     "bitcoin",
     "btc",
     "wallet",
-	"generate",
-	"address"
+    "generate",
+    "address"
   ],
   "author": "Farshad",
   "license": "ISC",
   "dependencies": {
     "ripemd160": "^2.0.2",
-    "secp256k1": "^4.0.0"
+    "secp256k1": "^4.0.2"
   },
   "bugs": {
     "url": "https://github.com/ferrriii/btc-address/issues"
