@@ -26,5 +26,6 @@
   "bugs": {
     "url": "https://github.com/ferrriii/btc-address/issues"
   },
-  "homepage": "https://github.com/ferrriii/btc-address#readme"
+  "homepage": "https://github.com/ferrriii/btc-address#readme",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
