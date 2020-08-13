@@ -18,7 +18,7 @@
     "address"
   ],
   "author": "Farshad",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "ripemd160": "^2.0.2",
     "secp256k1": "^4.0.2"
