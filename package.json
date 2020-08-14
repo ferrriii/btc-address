@@ -17,7 +17,7 @@
     "generate",
     "address"
   ],
-  "author": "Farshad",
+  "author": "ferrriii",
   "license": "MIT",
   "dependencies": {
     "ripemd160": "^2.0.2",
